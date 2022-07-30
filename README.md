@@ -14,20 +14,34 @@ A grade curricular inclui:
  <li>Clean Code</li>
  <li>Scrum</li>
 </ul>
+<br>
+ 
+<ul>
+ <li>No frontend:</li>
+ <br>
+ <ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+ </ul>
+ <br>
 
+<ul>
+ <li>No backend:</li>
+ <br>
+ <ul>
+  <li>ava (Springboot)</li>
+  <li>Testes</li>
+  <li>Documentação</li>
+  <li>PostgreSQL</li>
+ </ul>
+ <br>
 
-No frontend:
-HTML
-CSS
-JavaScript
-React
-
-No backend:
-Java (Springboot)
-Testes
-Documentação
-PostgreSQL
-
-Integração:
-Cloud
-Docker
+ <ul>
+  <li>Integração:</li>
+  <br>
+  <ul>
+   <li>Cloud</li>
+   <li>Docker</li>
+  </ul>
