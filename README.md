@@ -14,6 +14,7 @@ A grade curricular inclui:
  <li>Clean Code</li>
  <li>Scrum</li>
 </ul>
+ </ul>
 <br>
  
 <ul>
@@ -25,6 +26,7 @@ A grade curricular inclui:
   <li>JavaScript</li>
   <li>React</li>
  </ul>
+ </ul>
  <br>
 
 <ul>
@@ -35,6 +37,7 @@ A grade curricular inclui:
   <li>Testes</li>
   <li>Documentação</li>
   <li>PostgreSQL</li>
+ </ul>
  </ul>
  <br>
 
