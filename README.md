@@ -7,9 +7,9 @@ Extensão acadêmica da Faculdade SENAI Florianópolis como certificação em An
 A grade curricular inclui:
 
 <li>Boas práticas:
-  GIT
-  Clean Code
-  Scrum
+  GIT<br>
+  Clean Code<br>
+  Scrum<br>
 </li>
 
 No frontend:
