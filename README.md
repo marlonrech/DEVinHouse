@@ -8,6 +8,7 @@ A grade curricular inclui:
 
 <ul>
 <li>Boas práticas:</li>
+ <br>
  <ul>
  <li>GIT</li>
  <li>Clean Code</li>
