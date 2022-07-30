@@ -1,6 +1,6 @@
 # DEVinHouse | Faculdade SENAI Florianópolis + CLAMED + ACATE
  
- Programa de formação em desenvolvimento fullstack.
+ Programa de formação em <i>desenvolvimento fullstack</i>.
 
 Extensão acadêmica da Faculdade SENAI Florianópolis como certificação em Análise e Desenvolvimento de Sistemas.
 
