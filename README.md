@@ -8,9 +8,9 @@ A grade curricular inclui:
 
 <ul>Boas práticas:</ul>
 
-GIT
-Clean Code
-Scrum
+  <li>GIT</li>
+  Clean Code
+  Scrum
 
 No frontend:
 HTML
