@@ -8,8 +8,8 @@ A grade curricular inclui:
 
 Boas práticas:
 
-GIT
-Clean Code
+GIT<br>
+Clean Code<br>
 Scrum
 
 No frontend:
