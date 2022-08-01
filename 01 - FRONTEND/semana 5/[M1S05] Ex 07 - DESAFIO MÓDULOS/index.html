@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[M1S05] Ex 07 - DESAFIO: MÓDULOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="receber-dados">
+        <h1>Cadastro de usuário</h1>
+        Nome: <input type="text" id="input-nome" placeholder="Insira seu nome">
+        Link de imagem: <input type="text" id="input-imagem" placeholder="Insira o link de uma foto">
+        Descrição <input type="text" id="input-descricao" placeholder="Faça uma breve descrição sobre você">
+        <br>
+        <button id="botao-criar" type="submit">CRIAR USUÁRIO</button>
+    </form>
+    <div id="imprimir-dados">
+        <img id="apresenta-imagem" src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png">
+        <h2 id="apresenta-nome">Usuário</h2>
+        <p id="apresenta-descricao">Descrição.</p>
+    </div>
+</body>
+<script src="imprimirDados.js" type="module"></script>
+<script src="receberDados.js" type="module"></script>
+</html>
