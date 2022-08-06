@@ -17,6 +17,7 @@ botao.addEventListener('click', pokemon);
 
 // CRIANDO A FUNCAO
 function pokemon() {
+    
     // SELECIONANDO O INPUT E PEGANDO O SEU VALOR
     valorInput = document.querySelector('#enviarNomePokemon').value;
     console.log(valorInput)
@@ -25,6 +26,7 @@ function pokemon() {
     const buscarPokemon = new XMLHttpRequest();
     buscarPokemon.open('GET', `https://pokeapi.co/api/v2/pokemon/${valorInput}`);
     buscarPokemon.onload = () => {
+
         // CRIANDO UMA CONST PRA GUARDA O VALOR DA RESPOSTA DO XML
         const infoPokemon = JSON.parse (buscarPokemon.response);
         console.log(infoPokemon);
@@ -32,19 +34,11 @@ function pokemon() {
         // AS INFORMAÇÃO PEGADA DA API
         let div = document.querySelector('#mostrarInfoPoke')
         let img = document.getElementById('pokemonImagem')
-        let habilidadePoke = document.querySelector('#habilidadesDoPoke')
-
         div.innerHTML = `O nome do pokemon é: ${infoPokemon.name} <br>`
         div.innerHTML += `A altura do pokemon é: ${infoPokemon.height} <br>`
         div.innerHTML += `O peso do pokemon é: ${infoPokemon.weight} <br>`
         img.src = infoPokemon.sprites.front_default;
-        habilidadePoke.innerHTML = ''
 
-        infoPokemon.abilities.forEach((objHabilidades) => {
-            let criandoLi = document.createElement('li');
-            criandoLi.innerHTML = objHabilidades.ability.name;
-            habilidadePoke.appendChild(criandoLi);
-        });
     }
     buscarPokemon.onerror = (err) => {
         console.error(err)
