@@ -13,6 +13,7 @@ botao.addEventListener('click', pokemon);
 
 // CRIANDO A FUNCAO
 function pokemon() {
+    
     // SELECIONANDO O INPUT E PEGANDO O SEU VALOR
     valorInput = document.querySelector('#enviarNomePokemon').value;
     console.log(valorInput)
@@ -21,6 +22,7 @@ function pokemon() {
     const buscarPokemon = new XMLHttpRequest();
     buscarPokemon.open('GET', `https://pokeapi.co/api/v2/pokemon/${valorInput}`);
     buscarPokemon.onload = () => {
+
         // CRIANDO UMA CONST PRA GUARDA O VALOR DA RESPOSTA DO XML
         const infoPokemon = JSON.parse (buscarPokemon.response);
         console.log(infoPokemon);
