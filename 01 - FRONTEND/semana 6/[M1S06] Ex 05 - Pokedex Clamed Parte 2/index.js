@@ -1,10 +1,6 @@
-// Utilizando a api PokéAPI e fazendo uma requisição get com XMLHttpRequest, 
-// imprima em um console.log() o nome, a altura, o peso e adicione na tela uma imagem (a sua escolha) desse pokémon. 
-// Todas as informações precisam vir da api inclusive a imagem.
-
-// Dicas: as informações pedidas estão dentro do json que é retornado da api, observe as propriedades: height, weight, sprites e name.
-// Para o teste no final da url é necessário usar um nome de um pokémon. Ex: pikachu, ditto, charmander…
-
+// Agora pensando em avançar um pouco mais iremos adicionar em tela um input e um botão que irá pegar o nome do pokemon 
+// e ao apertar no botão pesquisar irá fazer a mesma requisição construída anteriormente.
+// Com isso imprima as mesmas informações pedidas todas em tela, adicione uma lista com todas as habilidades do pokémon (observe a propriedade abilities).
 
 
 // CRIANDO AS VARIAVEIS
@@ -32,19 +28,11 @@ function pokemon() {
         // AS INFORMAÇÃO PEGADA DA API
         let div = document.querySelector('#mostrarInfoPoke')
         let img = document.getElementById('pokemonImagem')
-        let habilidadePoke = document.querySelector('#habilidadesDoPoke')
-
         div.innerHTML = `O nome do pokemon é: ${infoPokemon.name} <br>`
         div.innerHTML += `A altura do pokemon é: ${infoPokemon.height} <br>`
         div.innerHTML += `O peso do pokemon é: ${infoPokemon.weight} <br>`
         img.src = infoPokemon.sprites.front_default;
-        habilidadePoke.innerHTML = ''
 
-        infoPokemon.abilities.forEach((objHabilidades) => {
-            let criandoLi = document.createElement('li');
-            criandoLi.innerHTML = objHabilidades.ability.name;
-            habilidadePoke.appendChild(criandoLi);
-        });
     }
     buscarPokemon.onerror = (err) => {
         console.error(err)
