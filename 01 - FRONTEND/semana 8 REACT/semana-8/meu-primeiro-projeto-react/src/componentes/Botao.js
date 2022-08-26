@@ -1,5 +1,5 @@
-export default function Botao ({corDeFundo, children}) {
-    return (
-        <button style= {{backgroundColor: corDeFundo}} > {children} </button>
-    );
-}
+const Botao = ({ corDeFundo, children }) => {
+    return <button style={ { backgroundColor: corDeFundo } }>{children}</button>
+  }
+  
+  export default Botao;
