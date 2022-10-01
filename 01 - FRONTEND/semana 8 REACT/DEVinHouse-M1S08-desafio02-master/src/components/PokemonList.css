@@ -1,0 +1,32 @@
+.pokemon-list {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.pokemon-card {
+  border: 1px solid black;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+
+h6,
+h5 {
+  line-height: 0;
+  margin-top: -10px;
+}
+
+.types-box {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.types-box span {
+  font-size: 10px;
+}
