@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-center {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 15px auto;
+  padding: 5px 10px;
+  border: 0.5px solid aquamarine;
+  border-radius: 30px;
+}
+
+.card-list {
+  display: flex;
+  width: 60vw;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.card-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.header-content {
+  /* line-height: 5px; */
+  margin-left: 20px;
+}
+
+.header-content h3 {
+  font-size: 25px;
+}
+
+.header-content h4 {
+  font-weight: normal;
+}
+
+.nft-image {
+  width: 100%;
+  background-color: orangered;
+}
+
+.nft-image img {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.card-footer {
+  padding: 10px;
+  text-align: right;
+}
+
+.card-footer h5 {
+  font-weight: normal;
+}
